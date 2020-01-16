@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.OrganizationFolder_-State plugin="branch-api@2.5.5">
+  <actions>
+    <entry>
+      <string>org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator::https://api.github.com::dsds</string>
+      <list>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.6.3">
+          <objectUrl>https://github.com/dsds</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+        <org.jenkinsci.plugins.github__branch__source.GitHubOrgMetadataAction plugin="github-branch-source@2.5.8">
+          <avatar>https://avatars2.githubusercontent.com/u/394992?v=4</avatar>
+        </org.jenkinsci.plugins.github__branch__source.GitHubOrgMetadataAction>
+        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.5.8">
+          <iconClassName>icon-github-logo</iconClassName>
+          <url>https://github.com/dsds</url>
+        </org.jenkinsci.plugins.github__branch__source.GitHubLink>
+      </list>
+    </entry>
+  </actions>
+</jenkins.branch.OrganizationFolder_-State>

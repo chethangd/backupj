@@ -1,0 +1,9 @@
+Started by user [8mha:////4Cj5OeLPIUaoUyKAC/aEr1b+aHuWI41WT46YVuUjlH6RAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL95IzUkozEPACkdPaRwgAAAA==[0mchethangd
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/jenkins backup
+[jenkins backup] $ /bin/bash /tmp/jenkins6721824069240251457.sh
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permission denied
+/tmp/jenkins6721824069240251457.sh: line 10: unexpected EOF while looking for matching ``'
+/tmp/jenkins6721824069240251457.sh: line 16: syntax error: unexpected end of file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

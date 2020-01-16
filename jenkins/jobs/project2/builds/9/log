@@ -1,0 +1,23 @@
+Started by user [8mha:////4Cj5OeLPIUaoUyKAC/aEr1b+aHuWI41WT46YVuUjlH6RAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL95IzUkozEPACkdPaRwgAAAA==[0mchethangd
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project2
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/chethangd/test3.git
+ > git init /var/lib/jenkins/workspace/project2 # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/chethangd/test3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3.git # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3.git
+ > git fetch --tags --progress -- https://github.com/chethangd/test3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1ca580faef3376aed8f656897759d2a230e8ca38 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1ca580faef3376aed8f656897759d2a230e8ca38 # timeout=10
+Commit message: "message"
+First time build. Skipping changelog.
+Finished: SUCCESS

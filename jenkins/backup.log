@@ -1,0 +1,19 @@
+[ INFO] Backup started at [01/16/20 10:28:47]
+[ INFO] Setting hudson in shutdown mode to avoid files corruptions.
+[ INFO] Waiting all jobs end...
+[ INFO] Number of running jobs detected : 0
+[ INFO] All jobs finished.
+[ INFO] Full backup file name : /C:\Users\HP\Documents\backup/backup_20200116_1028.zip
+[ERROR] org.codehaus.plexus.archiver.ArchiverException: Problem creating zip: C:\Users\HP\Documents\backup/backup_20200116_1028.zip (No such file or directory) (and the archive is probably corrupt but I could not delete it)
+org.jvnet.hudson.plugins.backup.BackupException: java.io.IOException: org.codehaus.plexus.archiver.ArchiverException: Problem creating zip: C:\Users\HP\Documents\backup/backup_20200116_1028.zip (No such file or directory) (and the archive is probably corrupt but I could not delete it)
+	at org.jvnet.hudson.plugins.backup.utils.BackupEngine.doBackup(BackupEngine.java:115)
+	at org.jvnet.hudson.plugins.backup.utils.BackupTask.run(BackupTask.java:130)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: org.codehaus.plexus.archiver.ArchiverException: Problem creating zip: C:\Users\HP\Documents\backup/backup_20200116_1028.zip (No such file or directory) (and the archive is probably corrupt but I could not delete it)
+	at org.jvnet.hudson.plugins.backup.utils.BackupEngine.handleEnd(BackupEngine.java:104)
+	at org.apache.commons.io.DirectoryWalker.walk(DirectoryWalker.java:336)
+	at org.jvnet.hudson.plugins.backup.utils.BackupEngine.doBackup(BackupEngine.java:113)
+	... 2 more
+[ INFO] Cancel hudson shutdown mode
+[ INFO] Backup end at [01/16/20 10:29:11]
+[ INFO] [23.076s]

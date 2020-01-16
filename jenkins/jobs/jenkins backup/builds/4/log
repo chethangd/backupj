@@ -1,0 +1,10 @@
+Started by user [8mha:////4Cj5OeLPIUaoUyKAC/aEr1b+aHuWI41WT46YVuUjlH6RAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL95IzUkozEPACkdPaRwgAAAA==[0mchethangd
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/jenkins backup
+[jenkins backup] $ /bin/bash /tmp/jenkins5702599962649741213.sh
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permission denied
+fatal: Unable to create '/var/lib/jenkins/.git/index.lock': Permission denied
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:chethan/add_backup'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

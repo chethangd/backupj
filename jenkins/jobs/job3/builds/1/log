@@ -1,0 +1,23 @@
+Started by GitHub push by chethangd
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/job3
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/chethangd/test3
+ > git init /var/lib/jenkins/workspace/job3 # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/chethangd/test3 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3 # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3 # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3
+ > git fetch --tags --progress -- https://github.com/chethangd/test3 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision dba34cfb65cc7ef66d527b9826284fcb5b016936 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dba34cfb65cc7ef66d527b9826284fcb5b016936 # timeout=10
+Commit message: "Update fact.c"
+First time build. Skipping changelog.
+Finished: SUCCESS

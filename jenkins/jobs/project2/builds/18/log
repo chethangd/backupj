@@ -1,0 +1,35 @@
+Started by user [8mha:////4Cj5OeLPIUaoUyKAC/aEr1b+aHuWI41WT46YVuUjlH6RAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL95IzUkozEPACkdPaRwgAAAA==[0mchethangd
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project2
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/chethangd/test3.git
+ > git init /var/lib/jenkins/workspace/project2 # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/chethangd/test3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chethangd/test3.git # timeout=10
+Fetching upstream changes from https://github.com/chethangd/test3.git
+ > git fetch --tags --progress -- https://github.com/chethangd/test3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b4ce0755565b8f10e57de68d6fc8d11b320ecc52 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b4ce0755565b8f10e57de68d6fc8d11b320ecc52 # timeout=10
+Commit message: "Delete makefile"
+ > git rev-list --no-walk b4ce0755565b8f10e57de68d6fc8d11b320ecc52 # timeout=10
+[project2] $ /bin/bash /tmp/jenkins5716159387374738413.sh
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+make: *** No rule to make target 'ABC.exe'.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
